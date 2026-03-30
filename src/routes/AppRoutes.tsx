@@ -1,6 +1,6 @@
 // import React from 'react'
 
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import {  Route, Routes } from "react-router-dom"
 import Properties from "../pages/Properties"
 import VPPRequest from "../pages/VPPRequest"
 import Dashboard from "../pages/Dashboard"
@@ -14,7 +14,6 @@ const AppRoutes = () => {
   return (
     <>
         {/* AppRoutes */}
-        <BrowserRouter>
         <Routes>
             <Route path="/" element={<MainLayout />}>
                 <Route path="*" element={<Dashboard />} />
@@ -26,7 +25,6 @@ const AppRoutes = () => {
                 <Route path="profilereservation" element={<ProfileReservation />} />
             </Route>
         </Routes>
-        </BrowserRouter>
     </>
   )
 }
