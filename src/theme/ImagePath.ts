@@ -1,6 +1,6 @@
 
 export const ImagePath = {
-    NavLogo: ('public/assets/images/nav-logo.png'),
+    NavLogo: ('./assets/images/navlogo.png'),
     AdminPic: ('public/assets/images/admin-pic.png'),
     NavIcon1: ('public/assets/images/nav-icon1.png'),
     NavIcon2: ('public/assets/images/nav-icon2.png'),
